@@ -55,7 +55,7 @@ We will walk through each of these steps throughout the lab and ask questions al
 ### Explore the data
 One thing often done prior to running a cluster algorithm is to explore the data. This is first done by examining summary stats as seen below.
 ```{r explore,message=FALSE,warning=FALSE}
-d_protein <- tbl(mm,'protein') %>% collect()
+d_protein <- tbl(mm,'protein') %>% collect() # Get data from the database
 summary(d_protein) 
 ```
 
@@ -69,14 +69,14 @@ As mentioned, the density plot gives you a lot of information about what each va
 density_data <- d_protein %>% #select(Country,RedMeat,WhiteMeat,Eggs,Milk) %>% 
     melt(id=c('Country'),variable.name='type')
 ggplot(density_data, aes(x=value)) + 
-    geom_density(fill='#1C7C54',alpha=0.6) + 
+    geom_density(fill='#F6FEAA',alpha=0.6) + 
     facet_wrap(~type,scales='free') +
     labs(x='Value',y='Density Fuction') +
     theme_ipsum() +
     theme(panel.grid.minor.y=element_blank())
 ```
 
-TODO(student) -- Answer the following questions:
+***TODO(student)*** -- Answer the following questions:
 
 * Look at the density plot for white meat, what does it mean? In other words, what does it tell you aboub white mean consumption?
 * What would a bad set of density plots look like for a cluster solution?
@@ -85,7 +85,7 @@ TODO(student) -- Answer the following questions:
 ### Choose a set of variables
 In this example, we are likely to use all of the variables available in the data set. That is because we don't have a ton of options and due to the fact that the problem is quite simple. In other more complex situations we might choose to leave out certain variables or we might combine them in novel ways. For example, in this situation, we could narrow down our set of variables by combining the two meat categories by taking the row-wise maximum between RedMeat and WhiteMeat.
 
-TODO(student) -- Answer the following questions:
+***TODO(student)*** -- Answer the following questions:
 
 * What do you think it would do to the solution to collapse the two meat variables?
 
@@ -126,7 +126,7 @@ set.seed(42)
 cluster_model <- kmeans(m_protein, centers=5)
 ```
 
-TODO(student) -- Do the following.
+***TODO(student)*** -- Do the following.
 
 * Choose a different cluster algorithm and run it on the same inputs.
 * Using the below code, compare the two solutions.
@@ -141,9 +141,9 @@ In my experience, the next step would be to look through the clusters to determi
 
 This table shows, for example, that cluster 1 is very high on Milk and Fish, somewhat high on Eggs and Starch and very low on Fruits and Vegetables. We might name this cluster "The Seaside Diet" based on this profile.
 
-TODO(student) -- Do the following.
+***TODO(student)*** -- Do the following.
 
-* Name clusters 4 -- 5.
+* Name clusters 2 -- 5.
 
 
 ```{r profiling_table}
@@ -171,8 +171,7 @@ ggplot(projection_with_labels, aes(x=PC1, y=PC2)) +
 #### Number of clusters
 Another question often asked regarding cluster solutions is how many clusters there should be. While there are various numeric measures to determine the number of clusters, the question is one often regarding how useful the solutions are to the business. Remeber there's a lot of art going on here as we decide how to transform variables, which variables to use, and how we name the clusters (thereby presenting them to others).
 
-### Build a new cluster model with 3 clusters
-TODO(student): Copy the following question(s) and add your response to your submission document:
+***TODO(student)***: Copy the following question(s) and add your response to your submission document:
 
 1. Create a new cluster model that has only 3 clusters.  Analyze the cluster model using numeric and visual techniques similar to above.  Submit the code used to create and analyze the new cluster model. 
 
