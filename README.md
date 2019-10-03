@@ -42,13 +42,3 @@ turning in a writeup of the assignment that includes the following.
 -   A description of how it maps to the strategic initiative of
     **increase monthly per-customer revenue**.
 -   Any thoughts you have regarding the assignment.
-
-#### Footnote
-
-I apologize if this seemed like a sales pitch for Domo. The point of
-this series of labs is to go from strategy to the implementation of a
-set of metrics. While there are a number of systems that could have
-performed these tasks (albeit in other ways), I just happen to know Domo
-the best. That fact allows me to help everyone get through the labs
-easier than if I had to learn a new system myself. Thank you for your
-participation.
