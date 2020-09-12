@@ -41,4 +41,5 @@ turning in a writeup of the assignment that includes the following.
 -   An explination of the page or dashboard.
 -   A description of how it maps to the strategic initiative of
     **increase monthly per-customer revenue**.
--   Any thoughts you have regarding the assignment.
+-   A discussion of your experience with this project including notes on
+    any gaps between your plan and the final product.

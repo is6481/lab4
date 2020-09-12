@@ -32,5 +32,5 @@ After sharing the page as described above, finalize the assignment by turning in
 * A link to the page/dashboard you created.
 * An explination of the page or dashboard.
 * A description of how it maps to the strategic initiative of **increase monthly per-customer revenue**.
-* Any thoughts you have regarding the assignment.
+* A discussion of your experience with this project including notes on any gaps between your plan and the final product.
 
