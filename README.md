@@ -15,12 +15,14 @@ Instructions
 The following resources should help you learn how to design charts and
 graphs (referred to as cards) in Domo.
 
--   [Adding a page](https://www.youtube.com/watch?v=yL6CWQ9w4p8)
--   [Analyzer Introduction](https://www.youtube.com/watch?v=FjkmAgpTT7U)
--   [Beast Mode Intro](https://www.youtube.com/watch?v=iEJ9x7-Tgw0)
+-   [Adding a page](https://www.youtube.com/watch?v=3zqmWFOLdjw)
+-   [Analyzer
+    Introduction](https://www.youtube.com/watch?v=wq-i9RU_af4&t=4s)
+-   [Beast Mode Intro](https://www.youtube.com/watch?v=oynlYptetQQ)
 -   [Case Statements in Calculated
-    Fields](https://www.youtube.com/watch?v=o9_kkTFTqkI)
--   [Dashboard Strategy](https://www.youtube.com/watch?v=7ULGsdibovI)
+    Fields](https://www.youtube.com/watch?v=CdEnCVzGo60)
+-   [Dashboard
+    Strategy](https://www.youtube.com/watch?v=7ULGsdibovI&t=15s)
 
 Create a page in Domo and design the page to answer the objectives you
 have identified for this project. Feel free to create this as a default
