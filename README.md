@@ -1,5 +1,4 @@
-Objectives
-==========
+# Objectives
 
 This is the third (and final) portion of this series of labs where we
 link strategy and analytics via a set of metrics. The set of metrics
@@ -9,18 +8,16 @@ monthly per-customer revenue** for a theoretical/fictional DVD rental
 shop. The primary task of this lab is to create a dashboard of metrics
 that you planned in lab 2.
 
-Instructions
-------------
+## Instructions
 
 The following resources should help you learn how to design charts and
 graphs (referred to as cards) in Domo.
 
 -   [Adding a page](https://www.youtube.com/watch?v=3zqmWFOLdjw)
--   [Analyzer
-    Introduction](https://www.youtube.com/watch?v=wq-i9RU_af4&t=4s)
--   [Beast Mode Intro](https://www.youtube.com/watch?v=oynlYptetQQ)
+-   [Analyzer Introduction](https://www.youtube.com/watch?v=QccCQMKELvE)
+-   [Beast Mode Intro](https://www.youtube.com/watch?v=SpVbmZPMAsM)
 -   [Case Statements in Calculated
-    Fields](https://www.youtube.com/watch?v=CdEnCVzGo60)
+    Fields](https://www.youtube.com/watch?v=xFofhklohSc)
 -   [Dashboard
     Strategy](https://www.youtube.com/watch?v=7ULGsdibovI&t=15s)
 
@@ -33,8 +30,7 @@ clicking the share icon in the top right of the screen (just to the left
 of the wrench icon). Then click “Share” and type in the name of the
 group.
 
-To Turn In
-----------
+## To Turn In
 
 After sharing the page as described above, finalize the assignment by
 turning in a writeup of the assignment that includes the following.
