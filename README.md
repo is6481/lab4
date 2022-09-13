@@ -14,7 +14,7 @@ The following resources should help you learn how to design charts and
 graphs (referred to as cards) in Domo.
 
 -   [Adding a page](https://www.youtube.com/watch?v=3zqmWFOLdjw)
--   [Analyzer Introduction](https://www.youtube.com/watch?v=QccCQMKELvE)
+-   [Analyzer Introduction](https://www.youtube.com/watch?v=7ixJ_bwwM8M)
 -   [Beast Mode Intro](https://www.youtube.com/watch?v=SpVbmZPMAsM)
 -   [Case Statements in Calculated
     Fields](https://www.youtube.com/watch?v=xFofhklohSc)
